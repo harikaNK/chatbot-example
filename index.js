@@ -2,6 +2,7 @@ function search() {
     alert("search");
 }
 
+
 $(document).ready(function () {
 
     //set speech recognition interface
@@ -15,7 +16,6 @@ $(document).ready(function () {
         // speech recognition API not supported
         //console.log("Speech API not supported");
     }
-
 
     $("#start").click(function () { //after start button is clicked
        // console.log("clicked");
